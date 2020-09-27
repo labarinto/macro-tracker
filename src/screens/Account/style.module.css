@@ -1,0 +1,24 @@
+.Account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title {
+    
+}
+
+.Form {
+    
+}
+
+.FoodForm {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.Input {
+    width: 33%;
+}

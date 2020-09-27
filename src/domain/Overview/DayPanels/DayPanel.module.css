@@ -1,0 +1,35 @@
+.DayPanel {
+    padding: 10px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+.Description {
+    display: flex;
+    align-items: center;
+}
+
+.Edit {
+    width: 30%;
+    text-align: center;
+    background-color: rgb(89, 89, 199);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.Macros { 
+    
+}
+
+.Macros p {
+    padding-right: 20px;
+}
+
+.MoreInfo {
+    display: none;
+}
+
+.Show {
+    display: block;
+}

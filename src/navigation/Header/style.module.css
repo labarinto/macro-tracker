@@ -1,0 +1,23 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 20px;
+}
+
+.Logo {
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.Logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.Logo a:hover,
+.Logo a:active,
+.Logo a.active{
+    color: blue;
+}

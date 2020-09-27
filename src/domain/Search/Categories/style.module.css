@@ -1,0 +1,17 @@
+.MealOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.MealOption {
+    width: 25%;
+    background-color: #b3c2f2;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Active {
+    background-color: blue;
+  }

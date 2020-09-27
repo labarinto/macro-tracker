@@ -1,0 +1,13 @@
+.Titles {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    background-color: rgba(202, 202, 202, 0.3);
+    padding: 10px 0 10px 20px;
+}
+
+.Titles h4 {
+    width: 16.5%;
+    text-align: center;
+}

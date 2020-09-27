@@ -1,0 +1,17 @@
+.Link {
+    padding: 10px;
+    display: block;
+}
+
+.Link a {
+    text-decoration: none;
+    color: #93a3b1;
+    box-sizing: border-box;
+    display: block;
+}
+
+.Link a:hover,
+.Link a:active,
+.Link a.active {
+    color: #495867;
+}

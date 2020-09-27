@@ -1,0 +1,84 @@
+.DatePicker {
+    width: 300px;
+    margin: 20px;
+    padding: 10px 0;
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.Title {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Title h3:hover, .Title div:hover
+{ color: blue;}
+
+.DayButtons {
+    display: none;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.Activate { display: flex; }
+
+.Title h6 {padding: 0 2px}
+
+.Content {
+    display:none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: rgb(232, 232, 232);
+}
+
+.Show { display: block; }
+
+.Month {
+    padding: 15px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Month p { 
+    cursor: pointer;
+}
+
+.Day {
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.Day p {
+    width: 14%;
+}
+
+.Date {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    cursor: pointer;
+    align-content: center;
+}
+
+.Date p {
+    width: 14%;
+    padding-top: 15px;
+}
+
+.Date p:hover {
+    background-color:rgba(194, 191, 191, 0.3);
+}
+
+.Active {
+    color:blue;
+}

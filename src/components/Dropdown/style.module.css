@@ -1,0 +1,51 @@
+.Dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.Button {
+    background-color: #b3c2f2;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.Button:hover, .Button:focus {
+    background-color: #becbf5;
+}
+
+.Macros {
+    font-size: 10px;
+}
+
+.Content {
+    display:none;
+    position: absolute;
+    background-color: #ffe;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Content p {
+    color: black;
+    padding: 10px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.Content p:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.Show {display:block;}
+
+.Item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
