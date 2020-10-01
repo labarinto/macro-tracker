@@ -1,68 +1,44 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Description
 
-In the project directory, you can run:
+1) You can 'Search' the food database,
+-Click which category you want, (breakfast, snack etc.)
+-Add quantity or subtract, or edit it to your liking
+-Then add it to your meal plan
+-Then you can see the changes of the macros number
 
-### `yarn start`
+2) You can 'Change you Macros Goal'
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3) You can 'Overview' the full week from monday to sunday
+-See the calories on each day,
+-Click on a day, and see all the food selected
+-Click 'Edit Mode', and make additional changes such as deleting, editing the quantity etc.
+-And save the edit.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+4) You can 'Favourite' an item from the food database.
 
-### `yarn test`
+5) Add your own food item to the database, with a form, manually filling out details such as protein, fat etc.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6) Have basic login functionality, e.g. login & signup
 
-### `yarn build`
+## Try it
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://macro-tracker-5e99c.web.app/signin
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Login details
+email: admin@gmail.com
+password: password
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+or you can register
 
-### `yarn eject`
+Please note: When developing the web app, I was mainly focused on the functionality. I am still working on the design. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm start
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
