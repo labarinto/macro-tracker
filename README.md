@@ -3,18 +3,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Description
 
 1) You can 'Search' the food database,
--Click which category you want, (breakfast, snack etc.)
--Add quantity or subtract, or edit it to your liking
--Then add it to your meal plan
--Then you can see the changes of the macros number
+- Click which category you want, (breakfast, snack etc.)
+- Add quantity or subtract, or edit it to your liking
+- Then add it to your meal plan
+- Then you can see the changes of the macros number
 
 2) You can 'Change you Macros Goal'
 
 3) You can 'Overview' the full week from monday to sunday
--See the calories on each day,
--Click on a day, and see all the food selected
--Click 'Edit Mode', and make additional changes such as deleting, editing the quantity etc.
--And save the edit.
+- See the calories on each day,
+- Click on a day, and see all the food selected
+- Click 'Edit Mode', and make additional changes such as deleting, editing the quantity etc.
+- And save the edit.
 
 4) You can 'Favourite' an item from the food database.
 
